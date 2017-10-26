@@ -1,4 +1,4 @@
-package com.github.timeloveboy.moejdbc.anno;
+package com.github.timeloveboy.moejdbc.annos;
 
 /**
  * Created by timeloveboy on 17-10-26.
@@ -14,7 +14,7 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Inherited
 @Documented
-public @interface MyMessage {
+public @interface Test {
 
     String name() default "sam";
 
